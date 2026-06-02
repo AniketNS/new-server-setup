@@ -34,6 +34,22 @@ A single bash script to bootstrap a fresh Linux server with a Dockerized Nginx r
 
 ---
 
+## Quick Start
+
+**Option 1 — curl (recommended):** downloads just the script, no extra folders
+
+```bash
+curl -sO https://raw.githubusercontent.com/AniketNS/new-server-setup/main/new-server-setup.sh && bash new-server-setup.sh <project-name>
+```
+
+**Option 2 — git clone:** if you want the full repo locally
+
+```bash
+git clone https://github.com/AniketNS/new-server-setup.git && cd new-server-setup && bash new-server-setup.sh <project-name>
+```
+
+---
+
 ## Requirements
 
 - Ubuntu/Debian Linux
@@ -45,19 +61,19 @@ A single bash script to bootstrap a fresh Linux server with a Dockerized Nginx r
 ## Usage
 
 ```bash
-bash setup-server.sh <project-name>
+bash new-server-setup.sh <project-name>
 ```
 
 **Example:**
 
 ```bash
-bash setup-server.sh my-app
+bash new-server-setup.sh my-app
 ```
 
 If you omit the project name it defaults to `project-name`:
 
 ```bash
-bash setup-server.sh
+bash new-server-setup.sh
 ```
 
 ---
